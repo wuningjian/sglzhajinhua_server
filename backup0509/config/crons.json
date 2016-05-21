@@ -1,0 +1,18 @@
+{
+  "development":{
+    "game": [
+      {"id": 1, "time": "0/10 * * * * *", "action": "gameCron.infoForGame"}
+    ],
+    "login": [
+      {"id": 1, "time": "0/15 * * * * *", "action": "loginCron.infoForLogin"}
+    ]
+  },
+  "production":{
+    "game": [
+      {"id": 1, "time": "0/10 * * * * *", "action": "gameCron.infoForGame"}
+    ],
+    "login": [
+      {"id": 1, "time": "0/15 * * * * *", "action": "loginCron.infoForLogin"}
+    ]
+  }
+}
